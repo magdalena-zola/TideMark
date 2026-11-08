@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "variant": {
+    "name": "w30_o0",
+    "window_seconds": 1800,
+    "offset_seconds": 0
+  },
+  "elapsed_seconds": 14250.311440699967,
+  "cell_windows_by_split_query": [
+    {
+      "split": "calibration",
+      "query": "distinct_vessels",
+      "n": 15532823
+    },
+    {
+      "split": "calibration",
+      "query": "high_speed_vessels",
+      "n": 3793135
+    },
+    {
+      "split": "calibration",
+      "query": "message_count",
+      "n": 15532823
+    },
+    {
+      "split": "test",
+      "query": "distinct_vessels",
+      "n": 17306198
+    },
+    {
+      "split": "test",
+      "query": "high_speed_vessels",
+      "n": 3704682
+    },
+    {
+      "split": "test",
+      "query": "message_count",
+      "n": 17306198
+    },
+    {
+      "split": "train",
+      "query": "distinct_vessels",
+      "n": 38394804
+    },
+    {
+      "split": "train",
+      "query": "high_speed_vessels",
+      "n": 10936345
+    },
+    {
+      "split": "train",
+      "query": "message_count",
+      "n": 38394804
+    }
+  ],
+  "split_integrity": "windows assigned by window-start date; cross-midnight window excluded only at train/calibration/test or corpus boundary",
+  "evaluation": "same TideMark v0.2.5 policy definitions and chronological train/calibration/test protocol",
+  "checkpoint_signature": "1bd948a579c0ebe40df6d4bbcecbcb223530c2758af93815e6fda0f2b4e47fbc",
+  "checkpoint_groups": 6,
+  "runner_version": "reliable_resumable_v1.0_2026-10-21",
+  "snapshot_build_elapsed_seconds": 14763.47703129996,
+  "physical_parts_written_this_run": 477
+}

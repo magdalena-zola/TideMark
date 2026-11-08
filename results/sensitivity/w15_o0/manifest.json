@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "variant": {
+    "name": "w15_o0",
+    "window_seconds": 900,
+    "offset_seconds": 0
+  },
+  "source": "existing TideMark_full/evaluation; not recomputed"
+}

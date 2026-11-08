@@ -1,0 +1,4 @@
+slice,days,threshold,tidemark_mean_delay_minutes,tidemark_mean_violation_pct,tidemark_p95_daily_violation_pct,days_over_1pct
+top 10% by p95_delay_seconds,95,1320.085339554768,21.90862439401927,0.4499682788317612,0.6126639234924789,1
+top 10% by eligible_rows,95,210216.9,21.60181755838657,0.47171957592346997,0.6126945397271499,0
+top quartile lateness AND activity,163,,21.757785610738765,0.4361549647968434,0.590147702913806,0

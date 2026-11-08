@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "variant": {
+    "name": "w15_o5",
+    "window_seconds": 900,
+    "offset_seconds": 300
+  },
+  "elapsed_seconds": 15181.810876599979,
+  "cell_windows_by_split_query": [
+    {
+      "split": "calibration",
+      "query": "distinct_vessels",
+      "n": 17850975
+    },
+    {
+      "split": "calibration",
+      "query": "high_speed_vessels",
+      "n": 3826317
+    },
+    {
+      "split": "calibration",
+      "query": "message_count",
+      "n": 17850975
+    },
+    {
+      "split": "test",
+      "query": "distinct_vessels",
+      "n": 23909535
+    },
+    {
+      "split": "test",
+      "query": "high_speed_vessels",
+      "n": 3744568
+    },
+    {
+      "split": "test",
+      "query": "message_count",
+      "n": 23909535
+    },
+    {
+      "split": "train",
+      "query": "distinct_vessels",
+      "n": 42787055
+    },
+    {
+      "split": "train",
+      "query": "high_speed_vessels",
+      "n": 11070859
+    },
+    {
+      "split": "train",
+      "query": "message_count",
+      "n": 42787055
+    }
+  ],
+  "split_integrity": "windows assigned by window-start date; cross-midnight window excluded only at train/calibration/test or corpus boundary",
+  "evaluation": "same TideMark v0.2.5 policy definitions and chronological train/calibration/test protocol",
+  "snapshot_build_elapsed_seconds": 15181.867307699984,
+  "physical_parts_written_this_run": 0
+}

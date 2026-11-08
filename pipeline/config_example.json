@@ -1,0 +1,21 @@
+{
+  "window_seconds": 900,
+  "cell_degrees": 0.25,
+  "candidate_delays_seconds": [0, 30, 60, 120, 300, 600, 900, 1200, 1800, 3600, 7200, 14400, 28800, 86400],
+  "epsilons": [0.0, 0.01, 0.05],
+  "alphas": [0.01, 0.05],
+  "train_fraction": 0.60,
+  "calibration_fraction": 0.20,
+  "min_daily_rows": 1000,
+  "min_experiment_days": 30,
+  "activity_bins": 4,
+  "min_context_windows": 200,
+  "speed_threshold_knots": 12.0,
+  "max_valid_speed_knots": 70.0,
+  "parquet_compression": "zstd",
+  "row_group_size": 122880,
+  "partition_by_month": true,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260929,
+  "exact_movement_id_repetition": false
+}

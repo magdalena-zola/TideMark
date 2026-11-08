@@ -1,0 +1,16 @@
+{
+  "message_count": [
+    0.0,
+    2.0,
+    8.0
+  ],
+  "distinct_vessels": [
+    0.0,
+    1.0,
+    4.0
+  ],
+  "high_speed_vessels": [
+    1.0,
+    2.0
+  ]
+}
